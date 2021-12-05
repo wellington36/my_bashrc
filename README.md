@@ -8,4 +8,4 @@ Repository to keep my .bashrc
 
 Requirement used (Arch):
 - `notify-send 0.7.9` (contime)
-- `git` (fullpull, you don't expect to run git pull without git, right?)
+- `git` (fullpull, you don't expect run git pull without git, right?)
