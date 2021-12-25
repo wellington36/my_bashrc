@@ -5,7 +5,7 @@ Repository to keep my .bashrc
 - `pdf $f`: open a pdf file `f`.
 - `countdown $x`: countdown with `x` seconds.
 - `contime $x`: countdown with `x` seconds and trigger a notification.
-- `ex &f`: archive extractor (f is a target file)
+- `ex $f`: archive extractor (f is a target file)
 
 Requirement used (Arch):
 - `notify-send 0.7.9` (contime)
