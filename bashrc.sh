@@ -178,3 +178,5 @@ function contime() {
 }
 
 alias pdf="xdg-open"
+
+alias ll="ls -l"
