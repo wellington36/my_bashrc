@@ -141,7 +141,7 @@ function countdown(){
    date1=$((`date +%s` + $1)); 
    while [ "$date1" -ge `date +%s` ]; do 
      echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
-     sleep 0.1
+     sleep 1
    done
 }
 function stopwatch(){
@@ -180,3 +180,5 @@ function contime() {
 alias pdf="xdg-open"
 
 alias ll="ls -l"
+
+alias pu="pamac update; pamac upgrade"
