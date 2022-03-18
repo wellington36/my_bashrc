@@ -181,4 +181,6 @@ alias pdf="xdg-open"
 
 alias ll="ls -l"
 
-alias pu="pamac update; pamac upgrade"
+alias pu="pamac update"
+
+alias st="git status" 
