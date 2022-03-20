@@ -184,3 +184,6 @@ alias ll="ls -l"
 alias pu="pamac update"
 
 alias st="git status" 
+
+alias jn="jupyter-notebook"
+
