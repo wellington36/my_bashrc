@@ -174,7 +174,7 @@ function fullpull(){
 }
 
 function contime() {
-	countdown $(($1)) ; notify-send -i gtk-dialog-warning -u normal "Aviso" "O tempo acabou"
+	countdown $(($1 * 60)) ; notify-send -i gtk-dialog-warning -u normal "Aviso" "O tempo acabou"
 }
 
 alias pdf="xdg-open"
@@ -186,4 +186,5 @@ alias pu="pamac update"
 alias st="git status" 
 
 alias jn="jupyter-notebook"
+
 
