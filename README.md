@@ -3,7 +3,7 @@ Repository to keep my .bashrc
 
 - `fullpull`: run git pull recursive on all repositories.
 - `pdf $f`: open a pdf file `f`.
-- `countdown $x`: countdown with `x` seconds.
+- `countdown $x`: countdown with `x` minutes.
 - `contime $x`: countdown with `x` seconds and trigger a notification.
 - `ex $f`: archive extractor (f is a target file)
 
